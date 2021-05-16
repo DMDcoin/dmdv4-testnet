@@ -1,0 +1,39 @@
+[account]
+
+unlock = ["put your address here"]
+password = ["password.txt"]
+
+[ipc]
+disable = true
+
+[mining]
+engine_signer = "put your address here"
+extra_data = "Parity"
+force_sealing = true
+min_gas_price = 1
+reseal_min_period = 0
+reseal_on_txs = "none"
+
+[misc]
+log_file = "parity.log"
+logging = "txqueue=trace,consensus=trace,engine=trace"
+
+[network]
+interface = "all"
+nat = "none"
+port = 30301
+reserved_peers = "reserved-peers"
+
+[parity]
+base_path = "data"
+chain = "spec.json"
+
+[rpc]
+disable = true
+
+[secretstore]
+disable = true
+
+[websockets]
+disable = true
+

@@ -1,0 +1,47 @@
+[account]
+
+[ipc]
+disable = true
+
+[mining]
+extra_data = "Parity"
+force_sealing = true
+min_gas_price = 1
+reseal_min_period = 0
+reseal_on_txs = "none"
+
+[misc]
+log_file = "parity.log"
+logging = "txqueue=trace,consensus=trace,engine=trace"
+
+[network]
+interface = "all"
+nat = "none"
+port = 30300
+reserved_peers = "reserved-peers"
+
+[parity]
+base_path = "data"
+chain = "spec.json"
+
+[rpc]
+apis = ["web3", "eth", "pubsub", "net", "parity", "parity_set", "parity_pubsub", "personal", "traces"]
+cors = ["all"]
+hosts = ["all"]
+interface = "all"
+port = 8540
+
+[secretstore]
+disable = true
+
+[websockets]
+apis = ["web3", "eth", "pubsub", "net", "parity", "parity_set", "parity_pubsub", "personal", "traces"]
+origins = ["all"]
+port = 9540
+
+[footprint]
+fat_db = "on"
+tracing = "on"
+db_compaction = "ssd"
+pruning = "archive"
+cache_size = 40960
