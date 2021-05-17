@@ -34,7 +34,7 @@ run
 # install the tools we need
 apt install git -y
 # clone the repository
-git clone git@github.com:DMDcoin/dmdv4-testnet.git
+git clone https://github.com/DMDcoin/dmdv4-testnet.git
 # switch into the new directory
 cd dmdv4-testnet
 # create a mining key for your new node.
