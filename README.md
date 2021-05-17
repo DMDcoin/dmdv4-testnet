@@ -29,7 +29,15 @@ run
 ## Quick Guide - Validator Node
 
 
+
 ```
+# install the tools we need
+apt install git -y
+# clone the repository
+git clone git@github.com:DMDcoin/dmdv4-testnet.git
+# switch into the new directory
+cd dmdv4-testnet
+# create a mining key for your new node.
 ./dmd create_miner
 ```
 
@@ -55,27 +63,8 @@ Verify that the node is able to sync to the latest state of the blockchain.
 
 ## Ports
 
- Testnet port: 46664
+Planned for the next Testnet: 46664
 
-
-## Run a Node
-
-A node is specified by 2 definition files:
-- chainspec.json: chain specification 
-- node.toml: Node configuration file
-
-
-This repository contains the latest chainspec.json
-and a set of different node configuration files.
-
-
-`./openethereum -c=node.toml`
-
-this will pull up
-
-
-There are several ways on how to create a keystore file:
-https://www.myetherwallet.com/create-wallet
 
 
 
