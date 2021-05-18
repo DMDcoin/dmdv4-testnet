@@ -2,3 +2,5 @@ data
 openethereum
 dmd
 public_key.txt
+validator-node.toml
+node.toml
