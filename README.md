@@ -6,7 +6,7 @@ We suggest Ubuntu 20.04 LTS.
 ## copy required files to your node server
 
 Copy the file from this repository on your node software.
-A convenient way to do that, is using git to download and keep your tools up to date.
+A convenient way to do that, is using git to download and keeping your tools up to date.
 
 ```bash
 # install git
@@ -45,7 +45,7 @@ to allow the hbbft engine to sign your block contributions.
 ```
 
 copy your public key for later usage
-copy your address (for example clipboard)
+copy your address to the clipboard
 
 open the example config in your favorite text editor like
 ```bash
@@ -130,5 +130,21 @@ After confirmation, your Pool should become available.
 
 To achieve that your node remains available you should run it in a screen, a tmux session, or as a systemd service, or a similar solution.
 
+screen is installed by default on most systems.
+
+Just do 
+```bash
+screen
+# (you will be forwarded to a new terminal session)
+# now, start your node here
+./openethereum -c=validator_node.toml
+# now you can press (CTRL+a), d to detach from your session again.
+# OR just close the terminal program you are using.
+```
+
+check if it works, by reattaching to your screen session
+```bash
+screen -r
+```
 
 
