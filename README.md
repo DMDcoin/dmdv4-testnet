@@ -1,9 +1,11 @@
 # dmdv4-testnet
-Testnet setup guide for a DMD Diamond v4
+Testnet setup guide for running a DMD Diamond v4 Blockchain Node.
+This guide has been developed for ubuntu 18 and ubuntu 20 systems.
+We suggest Ubuntu 20.04 LTS.
 
+## copy required files to your node server
 
-## copy required file to your node server
-
+Copy the file from this repository on your node software.
 A convenient way to do that, is using git to download and keep your tools up to date.
 
 ```bash
@@ -17,6 +19,8 @@ cd dmdv4-testnet
 
 ## Quick Guide - Full Node
 
+Running a validator Node without participating as validator is relativly easy.
+
 run 
 ```bash
 # downloads binaries and mark them executable.
@@ -26,8 +30,9 @@ run
 ```
 
 
-
 ## Quick Guide - Validator Node
+
+This section of the guide is currently for invited closed alpha users only.
 
 Running a validator node is a bit more complex,
 since it requires a dedicated unlocked account
@@ -75,7 +80,7 @@ Another source what is the latest block can be found here: http://explorer.uniq.
 ## add network to Wallet
 
 You need to have a web3 wallet that supports the DMD Diamond v4 Network,
-such as Metamask. 
+such as Metamask or the Brave Browser.
 
 At the time of writing, there are known issues with metamask in combination with DMDv4 Blockchain.
 Currently we suggest to use the Brave Browser that ships with a wallet included.
@@ -85,16 +90,45 @@ You need to add the DMD Network:
 
 ```
 Network Name:      DMDv4 Alpha
-New RPC URL:       http://93.104.209.46:8540
+RPC URL:       http://93.104.209.46:8540
 Chain ID:          777003
 Symbol:            tDMD
 Block Explorer URL: http://explorer.uniq.diamonds/
 ```
 
-## Ports
+If you want to use your own server as RPC Endpoint instead, you can also spin up your own RPC Server with `./openethereum -c=rpcnode.toml`
 
-Planned for the next Testnet: 46664
+Now your wallet should be connected to the network,
+so let us know what is your address - so we can fund you for the next step.
 
+## staking on your node
+
+Once your node is running and you have 10000 tDMD,
+you can visit http://staking.uniq.diamonds/
+
+Now you need your public key from the setup step again.
+If you don't have it anymore, and you used the dmd tool, your public key is written to `./public_key.txt`
+
+Your public key is also outputed when you start your node
+Public node URL: 
+```
+devp2p2 INFO network  Public node URL: enode://123abc..567def@127.0.0.1:30301
+```
+
+The hex numeric section in the middle of your enode is your public key.
+Enter this public key without leading 0x in the input field `public key` in the staking UI.
+If everything is alright, the tool will calculate a 'mining key'.
+This 'mining key' must be the same that you had configured in the 'validator_node.toml'.
+
+For `staking amount (DMD)` choose a value between 10000 and 50000.
+
+When you click the `Add Pool` button, your wallet should ask for confirmation.
+
+After confirmation, your Pool should become available.
+
+## Running your node in a tmux or screen session
+
+To achieve that your node remains available you should run it in a screen, a tmux session, or as a systemd service, or a similar solution.
 
 
 
