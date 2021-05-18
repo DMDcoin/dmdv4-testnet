@@ -4,18 +4,22 @@ testnet setup for a DMD Diamond v4
 
 ## add network to Wallet
 
-You need to have a wallet that supports the DMD Diamond v4 Network,
+You need to have a web3 wallet that supports the DMD Diamond v4 Network,
 such as Metamask. 
 
 At the time of writing, there are known issues with metamask in combination with DMDv4 Blockchain.
+Currently we suggest to use the Brave Browser that ships with a wallet included.
 
-Network Name: DMDv4 Alpha
-New RPC URL: http://93.104.209.46:8540
-Chain ID: 777003
-Symbole: tDMD
+
+You need to add the DMD Network:
+
+```
+Network Name:      DMDv4 Alpha
+New RPC URL:       http://93.104.209.46:8540
+Chain ID:          777003
+Symbol:            tDMD
 Block Explorer URL: http://explorer.uniq.diamonds/
-
-
+```
 
 
 ## Quick Guide - Full Node
@@ -27,7 +31,6 @@ run
 ```
 
 ## Quick Guide - Validator Node
-
 
 
 ```
@@ -58,8 +61,6 @@ Start your Node
 
 You should verify the log output if the enode id contains the public key you have created with the dmd tool.
 Verify that the node is able to sync to the latest state of the blockchain.
-
-
 
 ## Ports
 
