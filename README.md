@@ -89,9 +89,9 @@ Currently we suggest to use the Brave Browser that ships with a wallet included.
 You need to add the DMD Network:
 
 ```
-Network Name:      DMDv4 Alpha
+Network Name:      DMDv4 Alpha2
 RPC URL:       http://93.104.209.46:8540
-Chain ID:          777003
+Chain ID:          777004
 Symbol:            tDMD
 Block Explorer URL: http://explorer.uniq.diamonds/
 ```

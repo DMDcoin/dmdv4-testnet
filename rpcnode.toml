@@ -17,8 +17,10 @@ logging = "txqueue=trace,consensus=trace,engine=trace"
 [network]
 interface = "all"
 nat = "none"
-port = 30300
+port = 40300
 reserved_peers = "reserved-peers"
+# don't attempts to connect to non-public (~ local network) IPs (VM hosters do not like that)
+allow_ips = "public"
 
 [parity]
 base_path = "data"
