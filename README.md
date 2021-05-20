@@ -41,21 +41,27 @@ to allow the hbbft engine to sign your block contributions.
 
 ```bash
 # create a mining key for your new node.
+# there are 2 locations where your mining key get's stored:
+# - ./data/keys/DPoSChain/dmd_miner_key.json  in keystore format.
+# - ./data/network/key in private key format.
+# this tool simplifies that job for you.
 ./dmd create_miner
 ```
+
 
 copy your public key for later usage
 copy your address to the clipboard
 
+
 open the example config in your favorite text editor like
 ```bash
 # copy the template we prepared.
-cp validator-template.toml validator_node.toml
+cp template-validator.toml validator_node.toml
 # edit the config file.
 nano validator_node.toml
 ```
 
-replace `put your address here` with your address that got just generated.
+replace the two occurences of `put your address here` with your address that got just generated.
 
 ```bash
 # starts your Node using the new config file.

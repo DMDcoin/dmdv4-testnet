@@ -1,5 +1,6 @@
 [account]
 
+# example: unlock = ["0x60cf8ebf54d4f8e93aa89a0b28469827f0df04b2"]
 unlock = ["put your address here"]
 password = ["password.txt"]
 
@@ -7,6 +8,7 @@ password = ["password.txt"]
 disable = true
 
 [mining]
+# example: engine_signer = "0x60cf8ebf54d4f8e93aa89a0b28469827f0df04b2"
 engine_signer = "put your address here"
 extra_data = "Parity"
 force_sealing = true
