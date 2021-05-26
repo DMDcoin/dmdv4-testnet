@@ -15,6 +15,8 @@ apt install git -y
 git clone https://github.com/DMDcoin/dmdv4-testnet.git
 # switch into the new directory
 cd dmdv4-testnet
+# downloads binaries and mark them executable.
+./download-binaries.sh
 ```
 
 ## Quick Guide - Full Node
@@ -23,8 +25,6 @@ Running a validator Node without participating as validator is relativly easy.
 
 run 
 ```bash
-# downloads binaries and mark them executable.
-./download-binaries.sh
 # starts openethereum, using a full node configuration.
 ./openethereum -c=fullnode.toml
 ```

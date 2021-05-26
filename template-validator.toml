@@ -12,6 +12,7 @@ disable = true
 engine_signer = "put your address here"
 extra_data = "Parity"
 force_sealing = true
+gas_floor_target = "1000000000"
 min_gas_price = 1
 reseal_min_period = 0
 reseal_on_txs = "none"
