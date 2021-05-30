@@ -86,14 +86,9 @@ Another source what is the latest block can be found here: http://explorer.uniq.
 ## add network to Wallet
 
 You need to have a web3 wallet that supports the DMD Diamond v4 Network,
-such as Metamask or the Brave Browser.
-
-At the time of writing, there are known issues with metamask in combination with DMDv4 Blockchain.
-Currently we suggest to use the Brave Browser that ships with a wallet included.
-
+such as Metamask Browser Extension or the Brave Browser.
 
 You need to add the DMD Network:
-
 ```
 Network Name:      DMDv4 Alpha2
 RPC URL:       http://93.104.209.46:8540
@@ -103,6 +98,7 @@ Block Explorer URL: http://explorer.uniq.diamonds/
 ```
 
 If you want to use your own server as RPC Endpoint instead, you can also spin up your own RPC Server with `./openethereum -c=rpcnode.toml`
+and replace the url: 93.104.209.46 with the IP Address of your own Server.
 
 Now your wallet should be connected to the network,
 so let us know what is your address - so we can fund you for the next step.

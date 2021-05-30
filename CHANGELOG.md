@@ -11,11 +11,7 @@ files from this repository
 cd dmdv4-testnet
 # updates this repository
 git pull
-```
-
-and download the latest binaries.
-
-```bash
+# download latest binaries.
 ./download-binaries.sh
 ```
 
