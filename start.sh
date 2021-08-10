@@ -1,4 +1,4 @@
 
 #!/bin/sh
 
-./openethereum -c=validator_node.toml
+./openethereum  --no-discovery -c=validator_node.toml

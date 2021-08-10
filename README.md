@@ -83,6 +83,7 @@ INFO import  Imported #1040 0xabfe…f189 (0 txs, 0.00 Mgas, 29 ms, 0.56 KiB)
 
 Another source what is the latest block can be found here: http://explorer.uniq.diamonds
 
+
 ## add network to Wallet
 
 You need to have a web3 wallet that supports the DMD Diamond v4 Network,
@@ -91,8 +92,8 @@ such as Metamask Browser Extension or the Brave Browser.
 You need to add the DMD Network:
 ```
 Network Name:      DMDv4 Alpha2
-RPC URL:       http://93.104.209.46:8540
-Chain ID:          777004
+RPC URL:       http://167.86.125.140:8540
+Chain ID:          666013
 Symbol:            tDMD
 Block Explorer URL: http://explorer.uniq.diamonds/
 ```
