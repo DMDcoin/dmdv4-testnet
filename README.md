@@ -65,7 +65,7 @@ replace the two occurences of `put your address here` with your address that got
 
 ```bash
 # starts your Node using the new config file.
-./openethereum -c=validator_node.toml
+./start.sh
 ```
 
 You should verify the log output if the enode id contains the public key you have created with the dmd tool.
