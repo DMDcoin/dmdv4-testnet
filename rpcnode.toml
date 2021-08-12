@@ -46,4 +46,4 @@ fat_db = "on"
 tracing = "on"
 db_compaction = "ssd"
 pruning = "archive"
-cache_size = 40960
+cache_size = 4096
