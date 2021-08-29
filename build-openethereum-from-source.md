@@ -18,7 +18,7 @@ git clone https://github.com/DMDcoin/openethereum-3.x.git
 sudo apt-get install build-essential cmake
 
 # install rustup so we can build rust software
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 
 # makes rustup availaible
 source $HOME/.cargo/env
