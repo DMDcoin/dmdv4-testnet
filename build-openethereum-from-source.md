@@ -23,6 +23,9 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 # makes rustup availaible
 source $HOME/.cargo/env
 
+# choose the currect rust version.
+rustup default 1.52.1-x86_64-unknown-linux-gnu
+
 # switch into the directory we have pulled
 cd openethereum-3.x
 
@@ -30,5 +33,6 @@ cd openethereum-3.x
 cargo build --release
 
 # finally copy the build result to 
-cp openethereum-3.x/target/openethereum ./openethereum
+cp openethereum-3.x/target/release/openethereum ./dmdv4-testnet/openethereum
+
 ```
