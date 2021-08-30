@@ -16,7 +16,23 @@ git clone https://github.com/DMDcoin/dmdv4-testnet.git
 # switch into the new directory
 cd dmdv4-testnet
 # downloads binaries and mark them executable.
-./download-binaries.sh
+```
+
+Now you need to build openethereum.
+This involves 2 steps:
+preparing your machine to be able to build.
+and building.
+
+```bash
+# preparing the build environment for you machine has to be done only once
+./setup-build-from-source.sh
+```
+
+The build script get's the latest source version, and builds the binaries.
+This can take up to an hour depending of the performance of the machine.
+
+```bash
+./build-from-source.sh
 ```
 
 ## Quick Guide - Full Node
