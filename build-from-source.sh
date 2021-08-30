@@ -14,5 +14,5 @@ rustup default 1.52.1-x86_64-unknown-linux-gnu
 cargo build --release --all
 
 # finally copy the build result to 
-cp openethereum-3.x/target/release/openethereum ../openethereum
-# cp openethereum-3.x/target/release/openethereum openethereum
+cp target/release/openethereum ../openethereum
+cp dmd ../dmd
