@@ -6,7 +6,7 @@
 git clone https://github.com/DMDcoin/openethereum-3.x.git
 
 # install required dependencies
-sudo apt-get install build-essential cmake
+sudo apt-get install build-essential cmake -y
 
 # install rustup so we can build rust software
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
