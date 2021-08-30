@@ -15,4 +15,4 @@ cargo build --release --all
 
 # finally copy the build result to 
 cp target/release/openethereum ../openethereum
-cp dmd ../dmd
+cp target/release/dmd ../dmd
