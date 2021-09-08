@@ -28,6 +28,8 @@ port = 40301
 reserved_peers = "reserved-peers"
 # don't attempts to connect to non-public (~ local network) IPs (VM hosters do not like that)
 allow_ips = "public"
+max_peers = 50
+min_peers = 50
 
 [parity]
 base_path = "data"
