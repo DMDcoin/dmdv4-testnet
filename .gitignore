@@ -5,3 +5,4 @@ public_key.txt
 validator-node.toml
 node.toml
 openethereum-3.x
+parity.log
