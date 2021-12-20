@@ -17,15 +17,6 @@ ARG WORKDIR="/usr/src/dmdv4-testnet"
 WORKDIR ${WORKDIR}
 COPY . .
 COPY --from=build-image \
-    # ${WORKDIR}/backup-chain.sh \
-    # ${WORKDIR}/reset.sh \
-    # ${WORKDIR}/restore-start.sh \
-    # ${WORKDIR}/start.sh \
-    # ${WORKDIR}/spec.json \
-    # ${WORKDIR}/*.toml \
-    # ${WORKDIR}/*.md \
-    # ${WORKDIR}/password.txt \
-    # ${WORKDIR}/reserved-peers \  
     ${WORKDIR}/${OPENETHEREUM}/target/release/openethereum \
     ${WORKDIR}/${OPENETHEREUM}/target/release/dmd \
     /usr/local/bin/
