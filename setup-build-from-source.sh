@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # this script has only to be run once to clone the repositoriy and install the required tools.
 
