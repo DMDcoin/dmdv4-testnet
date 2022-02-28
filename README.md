@@ -108,7 +108,7 @@ such as Metamask Browser Extension or the Brave Browser.
 You need to add the DMD Network:
 ```
 Network Name:      DMDv4 Alpha4
-RPC URL:       http://167.86.125.140:8540
+RPC URL:       http://rpc.uniq.diamonds:8540
 Chain ID:          777012
 Symbol:            tDMD
 Block Explorer URL: http://explorer.uniq.diamonds/
