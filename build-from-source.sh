@@ -8,7 +8,7 @@ git pull
 source $HOME/.cargo/env
 
 # choose the currect rust version.
-rustup default 1.52.1-x86_64-unknown-linux-gnu
+rustup default 1.59.0-x86_64-unknown-linux-gnu
 
 # build the client.
 cargo build --release --all -j 1

@@ -17,5 +17,5 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 source $HOME/.cargo/env
 
 # choose the currect rust version.
-rustup default 1.52.1-x86_64-unknown-linux-gnu
+rustup default 1.59.0-x86_64-unknown-linux-gnu
 
