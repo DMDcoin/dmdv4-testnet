@@ -1,0 +1,17 @@
+[Unit]
+Description=Diamond Node Software
+
+[Service]
+Type=simple
+
+Restart=always
+RestartSec=30
+
+WorkingDirectory=/root/dmdv4-testnet
+ExecStart=/root/dmdv4-testnet/start.sh
+
+StandardOutput=file:/root/dmdv4-testnet/dmd.log
+StandardError=file:/root/dmdv4-testnet/dmd-errors.log
+
+[Install]
+WantedBy=multi-user.target
