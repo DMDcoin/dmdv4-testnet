@@ -12,7 +12,7 @@ reseal_on_txs = "none"
 
 [misc]
 log_file = "parity.log"
-logging = "txqueue=debug,consensus=info,engine=debug"
+logging = "txqueue=info,consensus=info,engine=info"
 
 [network]
 interface = "all"
