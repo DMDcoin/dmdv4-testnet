@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # switch into the directory we have pulled
-cd openethereum-3.x
+cd diamond-node
 
 git pull
 
