@@ -8,11 +8,11 @@ git pull
 source $HOME/.cargo/env
 
 # choose the currect rust version.
-rustup default 1.59.0-x86_64-unknown-linux-gnu
+rustup default 1.68.2-x86_64-unknown-linux-gnu
 
 # build the client.
 cargo build --release --all -j 1
 
 # finally copy the build result to 
-cp target/release/openethereum ../openethereum
+cp target/release/diamond-node ../diamond-node
 cp target/release/dmd ../dmd
