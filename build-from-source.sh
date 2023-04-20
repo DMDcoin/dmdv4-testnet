@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # switch into the directory we have pulled
-cd diamond-node
+cd diamond-node-git
 
 git pull
 
