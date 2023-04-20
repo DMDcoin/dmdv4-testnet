@@ -10,6 +10,8 @@ source $HOME/.cargo/env
 # choose the currect rust version.
 rustup default 1.68.2-x86_64-unknown-linux-gnu
 
+export RUSTFLAGS='-C target-cpu=native'
+
 # build the client.
 cargo build --release --all -j 1
 
