@@ -3,7 +3,7 @@
 # this script has only to be run once to clone the repositoriy and install the required tools.
 
 # get the latest source code
-git clone --branch dev --single-branch  https://github.com/DMDcoin/diamond-node.git diamond-node-git
+git clone --branch main --single-branch  https://github.com/DMDcoin/diamond-node.git diamond-node-git
 
 
 
