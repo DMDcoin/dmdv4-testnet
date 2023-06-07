@@ -19,7 +19,7 @@ reseal_on_txs = "none"
 
 [misc]
 log_file = "parity.log"
-logging = "txqueue=debug,consensus=trace,engine=trace"
+logging = "txqueue=info,consensus=info,engine=info,hbbft_message_memorium=error"
 
 [network]
 interface = "all"
