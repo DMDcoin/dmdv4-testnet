@@ -13,7 +13,7 @@ rustup default 1.68.2-x86_64-unknown-linux-gnu
 export RUSTFLAGS='-C target-cpu=native'
 
 # build the client.
-cargo build --all $DMD_NODE_BUILD_FLAGS
+cargo build $DMD_NODE_BUILD_FLAGS
 
 # finally copy the build result to 
 cp target/release/diamond-node ../diamond-node
