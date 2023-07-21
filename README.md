@@ -18,7 +18,7 @@ cd dmdv4-testnet
 # downloads binaries and mark them executable.
 ```
 
-Now you need to build openethereum.
+Now you need to build diamond-node.
 This involves 2 steps:
 preparing your machine to be able to build.
 and building.
@@ -41,8 +41,8 @@ Running a validator Node without participating as validator is relativly easy.
 
 run 
 ```bash
-# starts openethereum, using a full node configuration.
-./openethereum -c=fullnode.toml
+# starts diamond-node, using a full node configuration.
+./diamond-node -c=fullnode.toml
 ```
 
 
@@ -114,7 +114,7 @@ Symbol:            tDMD
 Block Explorer URL: http://explorer.uniq.diamonds/
 ```
 
-If you want to use your own server as RPC Endpoint instead, you can also spin up your own RPC Server with `./openethereum -c=rpcnode.toml`
+If you want to use your own server as RPC Endpoint instead, you can also spin up your own RPC Server with `./diamond-node -c=rpcnode.toml`
 and replace the url: 93.104.209.46 with the IP Address of your own Server.
 
 Now your wallet should be connected to the network,
@@ -156,7 +156,7 @@ Just do
 screen
 # (you will be forwarded to a new terminal session)
 # now, start your node here
-./openethereum -c=validator_node.toml
+./diamond-node -c=validator_node.toml
 # now you can press (CTRL+a), d to detach from your session again.
 # OR just close the terminal program you are using.
 ```
