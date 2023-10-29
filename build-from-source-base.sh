@@ -16,5 +16,5 @@ export RUSTFLAGS='-C target-cpu=native'
 cargo build $DMD_NODE_BUILD_FLAGS
 
 # finally copy the build result to 
-cp target/release/diamond-node ../diamond-node
-cp target/release/dmd ../dmd
+cp target/$DMD_NODE_BUILD_PROFILE/diamond-node ../diamond-node
+cp target/$DMD_NODE_BUILD_PROFILE/dmd ../dmd
