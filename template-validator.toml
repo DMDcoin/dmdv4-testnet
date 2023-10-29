@@ -9,17 +9,18 @@ disable = true
 
 [mining]
 # example: engine_signer = "0x60cf8ebf54d4f8e93aa89a0b28469827f0df04b2"
-engine_signer = "put your address here"
+engine_signer = "put your node address here"
 extra_data = "Parity"
 force_sealing = true
-gas_floor_target = "1000000000"
-min_gas_price = 1
+gas_floor_target = "300000000"
+min_gas_price = 1000000000
 reseal_min_period = 0
 reseal_on_txs = "none"
 
 [misc]
-log_file = "parity.log"
+log_file = "diamond-node.log"
 logging = "txqueue=info,consensus=info,engine=info,hbbft_message_memorium=error"
+shutdown_on_missing_block_import = 1800
 
 [network]
 interface = "all"
@@ -28,8 +29,8 @@ port = 40301
 reserved_peers = "reserved-peers"
 # don't attempts to connect to non-public (~ local network) IPs (VM hosters do not like that)
 allow_ips = "public"
-max_peers = 50
-min_peers = 50
+max_peers = 48
+min_peers = 48
 
 [parity]
 base_path = "data"
