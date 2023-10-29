@@ -18,8 +18,9 @@ reseal_min_period = 0
 reseal_on_txs = "none"
 
 [misc]
-log_file = "parity.log"
+log_file = "diamond-node.log"
 logging = "txqueue=info,consensus=info,engine=info,hbbft_message_memorium=error"
+shutdown_on_missing_block_import = 1800
 
 [network]
 interface = "all"
