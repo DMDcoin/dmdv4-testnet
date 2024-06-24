@@ -5,4 +5,4 @@
 export DMD_NODE_BUILD_FLAGS="--all --release"
 export DMD_NODE_BUILD_PROFILE="release"
 
-./build-from-source-base.sh
+./_build-from-source-base.sh
