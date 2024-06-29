@@ -27,7 +27,7 @@ base_path = "data"
 chain = "spec.json"
 
 [rpc]
-apis = ["web3", "eth", "pubsub", "net", "parity", "parity_set", "parity_pubsub", "personal", "traces"]
+apis = ["web3", "eth", "pubsub", "parity", "parity_pubsub", "traces"]
 cors = ["all"]
 hosts = ["all"]
 interface = "all"
