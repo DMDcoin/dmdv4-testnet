@@ -11,7 +11,7 @@ reseal_min_period = 0
 reseal_on_txs = "none"
 
 [misc]
-log_file = "parity.log"
+log_file = "rpc.log"
 logging = "txqueue=info,consensus=info,engine=info"
 
 [network]
