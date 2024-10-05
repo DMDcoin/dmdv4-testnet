@@ -1,5 +1,5 @@
 #!/bin/bash
 
-export DMD_NODE_GIT_TARGET=" --branch main "
+export DMD_NODE_GIT_TARGET=" --branch alpha4"
 
-./setup-build-from-source-base.sh
+./_setup-build-from-source-base.sh

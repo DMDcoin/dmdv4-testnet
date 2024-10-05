@@ -8,7 +8,7 @@ git pull
 source $HOME/.cargo/env
 
 # choose the currect rust version.
-rustup default 1.68.2-x86_64-unknown-linux-gnu
+rustup default 1.75
 
 export RUSTFLAGS='-C target-cpu=native'
 

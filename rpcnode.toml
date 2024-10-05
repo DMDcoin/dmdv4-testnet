@@ -4,42 +4,41 @@
 disable = true
 
 [mining]
-extra_data = "Parity"
 force_sealing = true
-min_gas_price = 1000000000
+min_gas_price = 1000
 reseal_min_period = 0
 reseal_on_txs = "none"
 
 [misc]
-log_file = "parity.log"
-logging = "txqueue=info,consensus=info,engine=info"
+log_file = "diamond-node.log"
+logging = "txqueue=info,consensus=debug,engine=debug,tx_own=trace"
 
 [network]
 interface = "all"
+max_peers = 10
+min_peers = 5
 nat = "none"
-port = 40300
+port = 54000
 reserved_peers = "reserved-peers"
-# don't attempts to connect to non-public (~ local network) IPs (VM hosters do not like that)
-allow_ips = "public"
 
 [parity]
 base_path = "data"
 chain = "spec.json"
 
 [rpc]
-apis = ["web3", "eth", "pubsub", "net", "parity", "parity_set", "parity_pubsub", "personal", "traces"]
+apis = ["web3", "eth", "pubsub", "parity", "parity_pubsub", "traces"]
 cors = ["all"]
 hosts = ["all"]
 interface = "all"
-port = 8545
+port = 54100
 
 [secretstore]
 disable = true
 
 [websockets]
-apis = ["web3", "eth", "pubsub", "net", "parity", "parity_set", "parity_pubsub", "personal", "traces"]
+interface = "all"
 origins = ["all"]
-port = 9545
+port = 54200
 
 [footprint]
 fat_db = "on"
