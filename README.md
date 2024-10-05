@@ -122,8 +122,7 @@ so let us know what is your address - so we can fund you for the next step.
 
 ## staking on your node
 
-Once your node is running and you have 10000 tDMD,
-you can visit http://staking.uniq.diamonds/
+Once your node is running and you have 10000  DMD (on testnet: tDMD).
 
 Now you need your public key from the setup step again.
 If you don't have it anymore, and you used the dmd tool, your public key is written to `./public_key.txt`
