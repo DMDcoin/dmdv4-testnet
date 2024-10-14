@@ -8,7 +8,8 @@
                 "transactionQueueSizeTrigger": 1,
                 "blockRewardContractAddress": "0x2000000000000000000000000000000000000001",
                 "blockRewardSkips" : [
-					{ "fromBlock": 398000, "toBlock": 398200 }
+					{ "fromBlock": 398000, "toBlock": 398200 },
+                    { "fromBlock": 398200, "toBlock": 398250 }
 				]
             }
         }
@@ -16,7 +17,7 @@
     "params": {
         "gasLimitBoundDivisor": "0x4",
         "maximumExtraDataSize": "0x20",
-        "minGasLimit": "10000000",
+        "minGasLimit": "100000000",
         "networkID": "777018",
         "eip140Transition": "0x0",
         "eip211Transition": "0x0",
