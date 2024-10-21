@@ -8,7 +8,8 @@
                 "transactionQueueSizeTrigger": 1,
                 "blockRewardContractAddress": "0x2000000000000000000000000000000000000001",
                 "blockRewardSkips" : [
-					{ "fromBlock": 398000, "toBlock": 400000 }
+					{ "fromBlock": 398000, "toBlock": 400000 },
+                    { "fromBlock": 404000, "toBlock": 420000 }
 				]
             }
         }
