@@ -9,7 +9,7 @@
                 "blockRewardContractAddress": "0x2000000000000000000000000000000000000001",
                 "blockRewardSkips" : [
 					{ "fromBlock": 398000, "toBlock": 400000 },
-                    { "fromBlock": 403900, "toBlock": 420000 }
+                    { "fromBlock": 403900, "toBlock": 450000 }
 				]
             }
         }
