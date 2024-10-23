@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# same as build-from-soure.sh but uses all cores and more memory.
+# this script exists only for scripting backward compatibility reasons.
 
-export DMD_NODE_BUILD_FLAGS="--all --release"
-export DMD_NODE_BUILD_PROFILE="release"
-
-./_build-from-source-base.sh
+./build-from-source.sh
