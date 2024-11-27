@@ -29,7 +29,8 @@
         "eip2028Transition": "0x0",
         "registrar": "0x6000000000000000000000000000000000000000",
         "transactionPermissionContract": "0x4000000000000000000000000000000000000001",
-        "transactionPermissionContractTransition": "0x0"
+        "transactionPermissionContractTransition": "0x0",
+        "maxTransactionSize": "0x64000"
     },
     "genesis": {
         "seal": {
