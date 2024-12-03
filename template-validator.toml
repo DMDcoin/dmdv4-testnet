@@ -43,7 +43,7 @@ disable = true
 [websockets]
 disable = true
 
-[Footprint]
+[footprint]
 # TODO: set the maximum amount of memory, you can spare for this diamond-node.
 # if no other services are running, you can set this value to almost all of your available RA 
 # cache_size = 4096

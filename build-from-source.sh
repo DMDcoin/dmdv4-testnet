@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# switch into the directory we have pulled
+# same as build-from-soure.sh but uses all cores and more memory.
 
-export DMD_NODE_BUILD_FLAGS="--all -j 1 --release"
+export DMD_NODE_BUILD_FLAGS="--all --release"
 export DMD_NODE_BUILD_PROFILE="release"
 
 ./_build-from-source-base.sh
