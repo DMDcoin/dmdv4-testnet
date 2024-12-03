@@ -23,7 +23,7 @@ shutdown_on_missing_block_import = 1800
 [network]
 interface = "all"
 nat = "none"
-port = 40301
+port = 27272
 reserved_peers = "reserved-peers"
 # don't attempts to connect to non-public (~ local network) IPs (VM hosters do not like that)
 allow_ips = "public"
