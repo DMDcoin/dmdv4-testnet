@@ -11,7 +11,7 @@ reseal_on_txs = "none"
 
 [misc]
 log_file = "diamond-node.log"
-logging = "txqueue=info,consensus=debug,engine=debug,tx_own=trace"
+logging = "txqueue=info,consensus=info,engine=info,tx_own=trace"
 
 [network]
 interface = "all"
