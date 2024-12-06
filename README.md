@@ -1,7 +1,7 @@
 # dmdv4-testnet
 Testnet setup guide for running a DMD Diamond v4 Blockchain Node.
 This guide has been developed for ubuntu 18 and ubuntu 20 systems.
-We suggest Ubuntu 20.04 LTS.
+We suggest Ubuntu 20.04 or 22.04 LTS.
 
 ## copy required files to your node server
 
@@ -107,11 +107,11 @@ such as Metamask Browser Extension or the Brave Browser.
 
 You need to add the DMD Network:
 ```
-Network Name:      DMDv4 Alpha4
-RPC URL:       http://rpc.uniq.diamonds:8540
-Chain ID:          777012
+Network Name:      DMDv4 Beta1
+RPC URL:       https://beta-rpc.bit.diamonds
+Chain ID:          27272
 Symbol:            tDMD
-Block Explorer URL: http://explorer.uniq.diamonds/
+Block Explorer URL: https://beta-explorer.bit.diamonds
 ```
 
 If you want to use your own server as RPC Endpoint instead, you can also spin up your own RPC Server with `./diamond-node -c=rpcnode.toml`
@@ -119,7 +119,6 @@ and replace the url: 93.104.209.46 with the IP Address of your own Server.
 
 Now your wallet should be connected to the network,
 so let us know what is your address - so we can fund you for the next step.
-
 ## staking on your node
 
 Once your node is running and you have 10000  DMD (on testnet: tDMD).
