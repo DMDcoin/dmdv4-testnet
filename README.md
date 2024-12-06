@@ -143,7 +143,10 @@ https://beta-ui.bit.diamonds/
 For `staking amount (DMD)` choose a value between 10000 and 50000.
 
 If u own DMD v3 coins u can claim them via claiming tool (link to guide is there)
-https://beta-ui.bit.diamonds/
+https://beta-claiming.bit.diamonds/
+
+to have tiny amount of DMD so u can claim there is a faucet
+final link is soon coming for now use that temp link http://62.171.133.46:8082/
 
 if u dont own DMD join our telegram or discord communities and request some.
 https://t.co/g4569SeqMK discord
