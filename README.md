@@ -97,7 +97,7 @@ that is a good sign that it is in sync.
 INFO import  Imported #1040 0xabfe…f189 (0 txs, 0.00 Mgas, 29 ms, 0.56 KiB)
 ```
 
-Another source what is the latest block can be found here: http://explorer.uniq.diamonds
+Another source what is the latest block can be found here: https://beta-explorer.bit.diamonds/
 
 
 ## add network to Wallet
@@ -137,7 +137,17 @@ Enter this public key without leading 0x in the input field `public key` in the 
 If everything is alright, the tool will calculate a 'mining key'.
 This 'mining key' must be the same that you had configured in the 'validator_node.toml'.
 
+Finalize the Pool seetup is doby by interacting with the Diamond-UI
+https://beta-ui.bit.diamonds/
+
 For `staking amount (DMD)` choose a value between 10000 and 50000.
+
+If u own DMD v3 coins u can claim them via claiming tool (link to guide is there)
+https://beta-ui.bit.diamonds/
+
+if u dont own DMD join our telegram or discord communities and request some.
+https://t.co/g4569SeqMK discord
+https://t.me/DMDcoin telegram
 
 When you click the `Add Pool` button, your wallet should ask for confirmation.
 
