@@ -179,7 +179,7 @@ For more details: [Diamond-UI Guide](https://github.com/DMDcoin/whitepaper/wiki/
 If u own DMD Diamond v3 coins at snapshot u can claim them following the guide here 
 https://beta-claiming.bit.diamonds/
 a tiny amount of DMD for enabling to interact with claiming can be requested here 
-temporary http://62.171.133.46:8082/ later https://beta-faucet.bit.diamonds/
+temporary http://62.171.133.46:8080 later https://beta-faucet.bit.diamonds/
 
 
 
