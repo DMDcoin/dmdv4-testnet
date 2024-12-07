@@ -4,6 +4,11 @@
 This guide is designed for **Ubuntu 18.04** and **Ubuntu 20.04** systems.  
 We recommend using **Ubuntu 20.04 LTS** or **Ubuntu 22.04 LTS**.
 
+Validator Node Spec recommendation:
+4 core 8 gb ram 200gb ssd (growing with blockchain size)
+for normal full node non validator operation far lower requirement cpu/ram wise possible 
+but to compile the node still need like 4gb ram and ssd space requirements are the same
+
 ----------
 
 ## Step 1: Copy Required Files to Your Node Server
