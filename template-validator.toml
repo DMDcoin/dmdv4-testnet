@@ -14,6 +14,7 @@ force_sealing = true
 min_gas_price = 1000
 reseal_min_period = 0
 reseal_on_txs = "none"
+gas_floor_target = "300000000"
 
 [misc]
 log_file = "diamond-node.log"
