@@ -19,7 +19,7 @@ gas_floor_target = "300000000"
 [misc]
 log_file = "diamond-node.log"
 logging = "txqueue=info,consensus=info,engine=info,hbbft_message_memorium=error"
-shutdown_on_missing_block_import = 1800
+shutdown_on_missing_block_import = 700
 
 [network]
 interface = "all"
