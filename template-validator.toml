@@ -24,7 +24,7 @@ tx_queue_no_early_reject = true
 
 [misc]
 log_file = "diamond-node.log"
-logging = "txqueue=info,consensus=info,engine=info,hbbft_message_memorium=error"
+logging = "txqueue=info,consensus=info,engine=info,hbbft_message_memorium=error,own_tx=trace"
 shutdown_on_missing_block_import = 700
 
 
