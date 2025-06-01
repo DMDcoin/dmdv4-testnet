@@ -16,10 +16,17 @@ reseal_min_period = 0
 reseal_on_txs = "none"
 gas_floor_target = "300000000"
 
+# for experienced users: adjust those settings for better performance.
+tx_queue_size = 10240
+tx_queue_mem_limit = 128
+tx_queue_per_sender = 256
+tx_queue_no_early_reject = true
+
 [misc]
 log_file = "diamond-node.log"
-logging = "txqueue=info,consensus=info,engine=info,hbbft_message_memorium=error"
+logging = "txqueue=info,consensus=info,engine=info,hbbft_message_memorium=error,own_tx=trace"
 shutdown_on_missing_block_import = 700
+
 
 [network]
 interface = "all"
