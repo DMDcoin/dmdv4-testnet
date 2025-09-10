@@ -27,11 +27,10 @@ log_file = "diamond-node.log"
 logging = "txqueue=info,consensus=info,engine=info,hbbft_message_memorium=error,own_tx=trace"
 shutdown_on_missing_block_import = 700
 
-
 [network]
 interface = "all"
 nat = "none"
-port = 27272
+port = 37373
 reserved_peers = "reserved-peers"
 # don't attempts to connect to non-public (~ local network) IPs (VM hosters do not like that)
 allow_ips = "public"
