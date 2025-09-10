@@ -34,7 +34,7 @@ port = 37373
 reserved_peers = "reserved-peers"
 # don't attempts to connect to non-public (~ local network) IPs (VM hosters do not like that)
 allow_ips = "public"
-max_peers = 48
+max_peers = 60
 min_peers = 27
 
 [parity]
