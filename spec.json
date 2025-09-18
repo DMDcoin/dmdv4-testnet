@@ -10,6 +10,9 @@
             }
         }
     },
+    "nodes": [
+        "enode://c96c1c85ba6c7724d732c365512de21318dc06fef2e72e5b311106daec7586cd0c39f4d2ac6073e23df62d865cf34758329f4deef4407266e6f62a404efa8dda@62.171.133.46:37373"
+    ],
     "params": {
         "gasLimitBoundDivisor": "0x4",
         "maximumExtraDataSize": "0x20",
