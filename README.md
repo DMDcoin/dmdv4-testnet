@@ -129,7 +129,7 @@ INFO import  Imported #1040 0xabfe…f189 (0 txs, 0.00 Mgas, 29 ms, 0.56 KiB)
 
 ```
 
-For the latest block information, visit the [block explorer](https://beta-explorer.bit.diamonds/).
+For the latest block information, visit the [block explorer](https://testnet-explorer.bit.diamonds/).
 
 ----------
 
@@ -139,7 +139,7 @@ Use a wallet like **MetaMask** or the **Brave Browser** to connect to the DMD Di
 
 ### Network Configuration:
 
--   **Network Name:** DMDv4 Beta1
+-   **Network Name:** DMD Diamond Testnet
 -   **RPC URL:** [https://testnet-rpc.bit.diamonds](https://testnet-rpc.bit.diamonds/)
 -   **Chain ID:** 37373
 -   **Symbol:** tDMD
@@ -172,15 +172,15 @@ Your public key can be found in the following locations:
 
 ### Stake Using the Diamond-UI
 
-Visit the [Diamond-UI](https://beta-ui.bit.diamonds/) and enter your public key.  
+Visit the [Diamond-UI](https://testnet-ui.bit.diamonds/) and enter your public key.  
 Follow the instructions to set up a pool with a staking amount between **10,000 and 50,000 tDMD**.
 
 For more details: [Diamond-UI Guide](https://github.com/DMDcoin/whitepaper/wiki/H.-Diamond-UI#h23-create-a-pool)
 
 If u own DMD Diamond v3 coins at snapshot u can claim them following the guide here 
-https://beta-claiming.bit.diamonds/
+https://testnet-claiming.bit.diamonds/
 a tiny amount of DMD for enabling to interact with claiming can be requested here 
-temporary http://62.171.133.46:8080 later https://beta-faucet.bit.diamonds/
+temporary http://62.171.133.46:8080 later https://testnet-faucet.bit.diamonds/
 
 
 
