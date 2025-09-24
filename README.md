@@ -1,11 +1,11 @@
 # DMDv4 Testnet
 
 **Testnet setup guide for running a DMD Diamond v4 Blockchain Node.**  
-This guide is designed for **Ubuntu 18.04** and **Ubuntu 20.04** systems.  
-We recommend using **Ubuntu 20.04 LTS** or **Ubuntu 22.04 LTS**.
+This guide is designed for **Ubuntu 24.04 LTS** 
+We recommend using **Ubuntu 24.04 LTS** **Ubuntu 22.04 LTS** or **Ubuntu 20.04 LTS**.
 
 Validator Node Spec recommendation:
-4 core 8 gb ram 200gb ssd (growing with blockchain size) and flatrate minimum 100 mbit (up&down) internet access with static IP address
+4 core 8 gb ram 200gb ssd (growing with blockchain size) and flatrate minimum 100 mbit (up&down) internet access with static IP address and port 37373 open for node to node communication 
 
 for normal full node non validator operation far lower requirement cpu/ram/bandwith wise possible 
 but to compile the node still need like 4gb ram and ssd space requirements are the same
@@ -140,10 +140,10 @@ Use a wallet like **MetaMask** or the **Brave Browser** to connect to the DMD Di
 ### Network Configuration:
 
 -   **Network Name:** DMDv4 Beta1
--   **RPC URL:** [https://beta-rpc.bit.diamonds](https://beta-rpc.bit.diamonds/)
--   **Chain ID:** 27272
+-   **RPC URL:** [https://testnet-rpc.bit.diamonds](https://testnet-rpc.bit.diamonds/)
+-   **Chain ID:** 37373
 -   **Symbol:** tDMD
--   **Block Explorer URL:** [https://beta-explorer.bit.diamonds](https://beta-explorer.bit.diamonds/)
+-   **Block Explorer URL:** [https://testnet-explorer.bit.diamonds](https://testnet-explorer.bit.diamonds/)
 
 To use your own RPC endpoint, start your node with:
 
