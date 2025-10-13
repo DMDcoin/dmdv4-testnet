@@ -14,21 +14,28 @@ force_sealing = true
 min_gas_price = 1000
 reseal_min_period = 0
 reseal_on_txs = "none"
+gas_floor_target = "300000000"
+
+# for experienced users: adjust those settings for better performance.
+tx_queue_size = 10240
+tx_queue_mem_limit = 128
+tx_queue_per_sender = 256
+tx_queue_no_early_reject = true
 
 [misc]
 log_file = "diamond-node.log"
-logging = "txqueue=info,consensus=info,engine=info,hbbft_message_memorium=error"
-shutdown_on_missing_block_import = 1800
+logging = "txqueue=info,consensus=info,engine=info,hbbft_message_memorium=error,own_tx=trace"
+shutdown_on_missing_block_import = 700
 
 [network]
 interface = "all"
 nat = "none"
-port = 27272
+port = 37373
 reserved_peers = "reserved-peers"
 # don't attempts to connect to non-public (~ local network) IPs (VM hosters do not like that)
 allow_ips = "public"
-max_peers = 48
-min_peers = 27
+max_peers = 42
+min_peers = 15
 
 [parity]
 base_path = "data"
